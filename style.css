@@ -256,6 +256,7 @@ header {
 .social-icons a {
   color: white;
   transition: color 0.3s;
+  text-decoration:none
 }
 
 .social-icons a:hover {
