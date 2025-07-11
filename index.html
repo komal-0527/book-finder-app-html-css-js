@@ -16,15 +16,14 @@
         <i class="ri-book-3-fill"></i> BookFinder
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Browse</a></li>
-        <li><a href="#">Favorites</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <!-- Book Slider -->
-    <div class="slider" id="slider">
+    <div class="slider" id="slider" id="home">
       <div class="slide-track" id="slideTrack">
         <!-- JS fills in slides dynamically -->
       </div>
@@ -32,7 +31,7 @@
   </header>
 
   <!-- Search Section -->
-  <div class="container">
+  <div class="container" id="books">
     <h1> Search Your Favorite Books</h1>
     <div class="search-box">
       <input type="text" id="searchInput" placeholder="Search by title or author...">
@@ -43,7 +42,7 @@
 <!-- ========================================== -->
  <!-- Contact Section -->
 <section class="contact" id="contact">
-  <h2>📞 Contact Us</h2>
+  <h2> Contact Us</h2>
   <p>If you have any questions or feedback, feel free to message us!</p>
   <form class="contact-form">
     <div class="form-group">
