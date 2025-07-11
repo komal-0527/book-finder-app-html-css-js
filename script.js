@@ -1,11 +1,5 @@
 
 
-// Toggle navbar links on small screens
-document.getElementById("menuToggle").addEventListener("click", () => {
-  document.getElementById("navLinks").classList.toggle("active");
-});
-
-
 
 
 const results = document.getElementById("results");
